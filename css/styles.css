@@ -1,0 +1,69 @@
+.root {
+
+}
+
+
+.logo-blue {
+    color: #2196F3;
+}
+.logo-black {
+    color: #000000;
+}
+
+.nav-list {
+    color: #212121;
+    list-style-type: none;
+}
+
+.contact-head {
+    color: #757575;
+    list-style-type: none;
+}
+
+.hero {
+    background-color: #2F303A;
+    width: 1600px;
+    height: 600px;
+}
+.main-header {
+color: #FFFFFF;
+}
+
+.benefits-list {
+    list-style-type: none;
+}
+
+.primary-text {
+    color: #212121;
+}
+
+.secondary-text {
+    color: #757575;
+}
+
+.what-list {
+    list-style-type: none;
+}
+
+.section-team {
+    background-color: #F5F4FA;
+}
+
+.team-list {
+    list-style-type: none;
+}
+
+.footer-bcg {
+    background-color: #2F303A;
+        width: 1600px;
+        height: 252px;
+}
+
+.logo-white {
+    color: #FFFFFF;
+}
+
+.contact-footer {
+    list-style-type: none;
+   
+}
