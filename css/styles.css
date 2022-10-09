@@ -1,7 +1,18 @@
 .root {
-
+/* палітра кольорів макета (текст, фон, виділення) */
+/* --primary-font-family: 'Roboto', sans-serif; */
+/* primary-text-color: color: #212121;  */
+/* seconadry-text-color: color:#757575;  */
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+}
 
 .logo-blue {
     color: #2196F3;
@@ -11,11 +22,23 @@
 }
 
 .nav-list {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
     color: #212121;
     list-style-type: none;
 }
 
+.link {
+    text-decoration: none;
+}
+
 .contact-head {
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
     color: #757575;
     list-style-type: none;
 }
@@ -26,19 +49,60 @@
     height: 600px;
 }
 .main-header {
+    font-weight: 900;
+    font-size: 44px;
+    line-height:calc(60 / 44);
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.header-button:hover, 
+.header-button:focus {
+background-color: #2196F3;
 color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height:calc(30 / 16);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .benefits-list {
     list-style-type: none;
 }
 
-.primary-text {
-    color: #212121;
+.benefits-header {
+    font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #212121;
 }
 
-.secondary-text {
-    color: #757575;
+.benefits-text {
+    font-weight: 400;
+        font-size: 14px;
+        line-height:calc(24 / 14);
+        letter-spacing: 0.03em;
+        color: #757575;
 }
 
 .what-list {
@@ -53,7 +117,7 @@ color: #FFFFFF;
     list-style-type: none;
 }
 
-.footer-bcg {
+.lower-bcg {
     background-color: #2F303A;
         width: 1600px;
         height: 252px;
@@ -63,7 +127,7 @@ color: #FFFFFF;
     color: #FFFFFF;
 }
 
-.contact-footer {
+.contact-lower {
     list-style-type: none;
    
 }
@@ -71,4 +135,9 @@ color: #FFFFFF;
 .buttons-list {
     color: #212121;
     list-style-type: none;
+}
+
+.portfolio-list {
+    list-style-type: none;
+
 }
