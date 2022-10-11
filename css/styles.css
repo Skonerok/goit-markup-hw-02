@@ -6,13 +6,15 @@
   --header-color: #212121;
   --secondary-color: #ffffff;
   --background-color: #2f303a;
-  --main-background-color: #f5f4fa;
+  --team-background-color: #f5f4fa;
+  --main-background-color: #ffffff;
 }
 
 /* GENERAL STYLES */
 body {
   font-family: var(--primary-font);
   color: var(--prevailing-color);
+  background-color: var(--main-background-color);
 }
 
 .list {
@@ -33,14 +35,9 @@ body {
   cursor: pointer;
 }
 
-.btn:hover,
-.btn:focus {
-  background-color: var(--accent-color);
-}
-
 /* HEADER SECTION */
 .logo {
-  font-family: var(--header-font);
+  font-family: var(--secondary-font);
   text-decoration: none;
   font-weight: 700;
   font-size: 26px;
@@ -101,7 +98,12 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--secondary-color);
-  background-color: transparent;
+  background-color: #2196f3;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #188CE8;
 }
 
 /* BENEFITS SECTION */
@@ -146,7 +148,7 @@ body {
 
 /* TEAM SECTION */
 .section-team {
-  background: var(--main-background-color);
+  background: var(--team-background-color);
 }
 
 .team-header {
@@ -156,6 +158,10 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--header-color);
+}
+
+.bcg-list {
+  background-color:var(--main-background-color);
 }
 
 .name-header {
@@ -212,6 +218,13 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--header-color);
+  background-color: #F5F4FA;
+}
+
+.item-btn:hover,
+.item-btn:focus {
+  color:var(--secondary-color);
+  background-color: var(--accent-color);
 }
 
 .portfolio-header {
